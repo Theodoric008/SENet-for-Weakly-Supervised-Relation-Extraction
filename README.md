@@ -28,7 +28,7 @@ python3 metric.py
 A student in PRIS, BUPT. 
 
 ## Prerequist
-1. Tensorflow-gpt==1.4.0
+1. Tensorflow-gpu==1.4.0
 2. sklearn, tflearn, nltk, numpy; update to date
 3. Python >= 3.6.5
 
