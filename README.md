@@ -26,9 +26,9 @@ python3 baselins.py
 python3 metric.py
 ```
 ## Model structure
-![](net-eps-converted-to.pdf)
+![](model_s.png)
 ## Best result(epoch ~= 170)
-![](baselines_soa.eps)
+![](soa_res.png)
 ## About me:
 A student in PRIS, BUPT. 
 
