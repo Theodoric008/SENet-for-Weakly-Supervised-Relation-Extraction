@@ -1,6 +1,6 @@
 This is the implementation of my paper: SENet for Weakly-Supervised Realtion Extraction
 
-Link: [paper_draft](https://github.com/Theodoric008/SENet-for-Weakly-Supervised-Relation-Extraction/blob/master/paper_draft.pdf)
+Click here: [paper_draft](https://github.com/Theodoric008/SENet-for-Weakly-Supervised-Relation-Extraction/blob/master/paper_draft.pdf)
 
 ## How to train?
 1. unzip zipfile in data/
@@ -24,6 +24,10 @@ cd plot/
 python3 baselins.py
 python3 metric.py
 ```
+## Model structure
+![](net-eps-converted-to.pdf)
+## Best result(epoch ~= 170)
+![](baselines_soa.eps)
 ## About me:
 A student in PRIS, BUPT. 
 
