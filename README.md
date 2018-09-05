@@ -1,6 +1,6 @@
 This is the implementation of my paper: SENet for Weakly-Supervised Realtion Extraction
 
-Link: []()
+Link: [paper_draft](https://github.com/Theodoric008/SENet-for-Weakly-Supervised-Relation-Extraction/blob/master/paper_draft.pdf)
 
 ## How to train?
 1. unzip zipfile in data/
