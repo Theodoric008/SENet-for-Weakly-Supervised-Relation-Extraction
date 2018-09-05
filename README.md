@@ -7,6 +7,7 @@ Click here: [paper_draft](https://github.com/Theodoric008/SENet-for-Weakly-Super
 2. put data folder at .. (recommend)
 3. in cmd:
 ```bash
+mkdir temp
 python3 train.py
 ```
 
