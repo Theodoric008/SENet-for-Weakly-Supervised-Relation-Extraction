@@ -2,6 +2,8 @@ This is the implementation of my paper: SENet for Weakly-Supervised Realtion Ext
 
 Click here: [paper_draft](https://github.com/Theodoric008/SENet-for-Weakly-Supervised-Relation-Extraction/blob/master/paper_draft.pdf)
 
+This paper is **SHIT** and wasn't accepted.
+
 ## How to train?
 1. unzip zipfile in data/
 2. put data folder at .. (recommend)
