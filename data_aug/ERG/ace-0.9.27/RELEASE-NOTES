@@ -1,0 +1,57 @@
+Release notes for ACE version 0.9.17
+
+LICENSE:
+This package is released under the MIT license.  See the attached file named 'LICENSE' for details.
+
+GRAMMAR SUPPORT:
+ACE has been extensively tested with many versions of the English Resource Grammar (ERG).  Limited testing with other grammars has been largely successful, but your mileage may vary.
+
+PARSING:
+ACE supports token mapping and lexical filtering
+ACE supports idiom checking
+ACE has a built-in part-of-speech tagger
+ACE has built-in REPP support
+
+GENERATING:
+ACE requires results to be subsumed by input MRS (when reconstructed without specializations)
+ACE has no support for generation-specific reranking
+ACE has no support for generating from unknown predicates like _frobinate_v_1_rel
+There are small differences in string post-processing
+
+TRANSFER:
+ACE supports the LOGON machine transfer "informalism" to a fairly complete extent.  Formal correctness testing has not been undertaken with respect to the LKB implementation, and there are likely differences, but ACE can process experimental transfer grammsr for some language pairs.
+
+MRS FORMATS:
+ACE inputs and outputs the simple text-based MRS format
+ACE has no support for the XML-based MRX format
+
+VERSION HISTORY:
+The following are some of the major improvements that have been made to ACE, not showing bug fixes and configurability improvements.  For more details, see the file TODO in SVN.
+
+0.9.17
+	- adds "generalization packing", which yields a significant speedup on very long sentences.  It is recommended that --disable-generalization be specified when parsing for the full-forest treebanker, since it can significantly increase the proportion of latent unification failures during unpacking / treebanking.
+	- quite a bit of new LUI functionality (activated by -l)
+0.9.16
+	- provides compatibility with the (old) LKB/[incr tsdb()]-based treebanking tool
+0.9.15
+	- 15% memory usage reduction
+0.9.12
+	- ICONS is preserved through transfer
+0.9.11
+	- transfer works well enough to run simple inputs through JAEN
+0.9.10
+	- ability to record forests for FFTB
+	- support for calling TNT
+	- ability to output normalized maxent probabilities
+	- ICONS
+0.9.6
+	- trigger rule specialization mechanism
+0.9.4
+	- generation server mode
+	- LUI chart parse support
+	- YY input mode
+	- optional post-generation token mapping
+0.9.3
+	- profiling mode -i
+0.9
+	- initial public release

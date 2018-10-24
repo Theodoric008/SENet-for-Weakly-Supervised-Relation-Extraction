@@ -1,19 +1,17 @@
-This is the implementation of my paper: SENet for Weakly-Supervised Realtion Extraction
+This is the implementation of my paper: SENet for Weakly-Supervised Relation Extraction
 
-Click here: [paper_draft](https://github.com/Theodoric008/SENet-for-Weakly-Supervised-Relation-Extraction/blob/master/paper_draft.pdf)
+Click here for pdf draft: [paper_draft](https://github.com/Theodoric008/SENet-for-Weakly-Supervised-Relation-Extraction/blob/master/paper_draft.pdf)
 
-This paper is **SHIT** and wasn't accepted.
+Accepted link: []() 
 
 ## How to train?
 1. unzip zipfile in data/
-2. put data folder at .. (recommend)
-3. in cmd:
+2. in cmd:
 ```bash
-mkdir temp
 python3 train.py
 ```
 
-and test result will be saved to temp/
+and test result will be saved to temp/ in format of pkl file
 
 
 ## How to eval?
@@ -24,20 +22,27 @@ python3 eval.py
 you need to fill in the pkl file path in plot script, and run
 ```bash
 cd plot/
-python3 baselins.py
+python3 plot_compare_with_other_model.py
 python3 metric.py
 ```
 ## Model structure
-![](model_s.png)
+![model structure](model_s.png)
+
 ## Best result(epoch ~= 170)
-![](soa_res.png)
-## About me:
-A student in PRIS, BUPT. 
+![compare with some others](baselines_soa.png)
 
-## Prerequist
+## Prerequisits
 1. Tensorflow-gpu==1.4.0
-2. sklearn, tflearn, nltk, numpy; update to date
-3. Python >= 3.6.5
+2. sklearn, tflearn, nltk, numpy
+3. Python3
 
-## Acks
-I did NOT write these from scratch. I cloned this repo: [ResCNN-9](https://github.com/darrenyaoyao/ResCNN_RelationExtraction) and improve it.
+## Other models for RE and some helpful repos
+[PCNN + ATT](https://github.com/thunlp/OpenNRE)
+
+[ResCNN-9](https://github.com/darrenyaoyao/ResCNN_RelationExtraction)
+
+[Linguistic_adversity](https://github.com/lrank/Linguistic_adversity)
+## About me 
+Master candidate from PRIS, BUPT. 
+
+Email: liujiashu2333@qq.com

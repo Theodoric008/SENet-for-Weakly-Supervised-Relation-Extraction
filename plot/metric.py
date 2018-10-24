@@ -45,7 +45,6 @@ for item in pkls:
     print(correct_num_200 / 200.0)
     ans2 = correct_num_200 / 200.0
 
-
     print('P@300:')
     top300 = order[:300]
     correct_num_300 = 0.0
@@ -55,7 +54,7 @@ for item in pkls:
     print(correct_num_300 / 300.0)
     ans3 = correct_num_300 / 300.0
 
-    print((ans1 + ans2 + ans3 )/ 3.0 )
+    print((ans1 + ans2 + ans3) / 3.0)
     print('------')
 
 

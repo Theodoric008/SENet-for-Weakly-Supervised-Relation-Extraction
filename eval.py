@@ -11,6 +11,7 @@ global_max = 0
 global_max_pkl = ''
 to_test = os.listdir(folder_path)
 
+
 def sort_file_name(file_list):
     res = []
     save_dict = {}
@@ -22,6 +23,7 @@ def sort_file_name(file_list):
     for key in sorted(save_dict.keys()):
         res.append(save_dict[key])
     return res
+
 
 to_test = sort_file_name(to_test)
 
