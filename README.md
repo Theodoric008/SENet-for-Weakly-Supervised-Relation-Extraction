@@ -1,11 +1,11 @@
-This is the implementation of my paper: SENet for Weakly-Supervised Relation Extraction
+This is the implementation of my paper: SENet for Weakly-Supervised Relation Extraction (CSAI 2018)
 
 Click here for pdf draft: [paper_draft](https://github.com/Theodoric008/SENet-for-Weakly-Supervised-Relation-Extraction/blob/master/paper_draft.pdf)
 
-Accepted link: []() 
+Accepted link: []() // todo
 
 ## How to train?
-1. unzip zipfile in data/
+1. unzip zipfile in data/ (the dataset is too large that you'd better download from here: https://github.com/darrenyaoyao/ResCNN_RelationExtraction/tree/master/data )
 2. in cmd:
 ```bash
 python3 train.py
