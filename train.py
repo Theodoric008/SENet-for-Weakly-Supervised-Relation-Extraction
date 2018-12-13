@@ -157,7 +157,7 @@ with tf.Graph().as_default():
         num_batch = 1
         num_epoch = 1
         for batch in batches:
-            batch = data_aug(batch)
+            # batch = data_aug(batch)
             num_batch += 1
             x_batch = datamanager.generate_x(batch)
             p1_batch, p2_batch = datamanager.generate_p(batch)
